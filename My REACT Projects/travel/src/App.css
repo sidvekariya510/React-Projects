@@ -1,0 +1,684 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*--------------------------------------------------------------  HOME START--------------------------------------------------------------  */
+/* section-1 */
+.section1 .overlay {
+  background: url(../public/img/bench.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-width: 100%;
+}
+
+
+.section1 .innercontainer .banner {
+  background: rgba(0, 0, 0, 0.65);
+  padding: 3% 13% 10% 13%;
+}
+
+.section1 .innercontent {
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.section1 .innercontent h1 {
+  padding: 3% 3%;
+  /* font-size: 50px; */
+}
+
+.section1 .innercontent p {
+  padding: 3% 3%;
+}
+
+/* section3 */
+.section3 .overlay {
+  background: url(../public/img/longexpo.jpg) center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-width: 100%;
+}
+
+.section3 .banner {
+  background: rgba(0, 0, 0, 0.25);
+}
+
+/* section5 */
+.section5 .overlay {
+  background: url(../public/img/leaves.jpg) center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-width: 100%;
+}
+
+.section5 .banner {
+  background: rgba(0, 0, 0, 0.35);
+}
+
+/* section7 */
+.section7 .overlay {
+  background: rgba(0, 0, 0);
+  min-width: 100%;
+  background-size: cover;
+}
+
+/* media query for smallest screen 300px */
+@media (max-width:575px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .section1 .innercontainer .banner {
+    padding: 3% 3% 10% 3% !important;
+  }
+
+  .section1 .h3 {
+    font-size: 35px;
+    padding: 50px 0;
+  }
+
+  .section1 .bar i {
+    font-size: 20px;
+  }
+
+  .section1 .collapse a {
+    font-size: 16px !important;
+  }
+
+  .section1 .innercontent h1 {
+    font-size: 18px !important;
+    font-weight: 600;
+  }
+
+  .section1 .innercontent p {
+    padding: 0% 3%;
+    font-size: 14px !important;
+  }
+
+  .section1 .innercontent a {
+    font-size: 14px !important;
+    padding: 4px 0px !important;
+    width: 100px;
+  }
+
+  .section2 {
+    margin: 30px 0px;
+  }
+
+  .section2 .row {
+    padding: 10px 10px;
+  }
+
+  .section2 .row .box1 {
+    margin: 10px 0px;
+    padding: 10px 10px;
+  }
+
+  .section2 .row .box1 i,
+  .box1 h3,
+  .box1 p {
+    padding: 10px;
+  }
+
+  .section3 .banner .left {
+    padding: 20px;
+  }
+
+  .section3 .banner .right {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 15px 0px;
+    margin: 0px !important;
+  }
+
+  .section4 .row h1 {
+    font-size: 20px;
+    padding: 20px;
+  }
+
+  .section4 .row .topp {
+    margin-bottom: 20px !important;
+  }
+
+  .section4 .row .topp p,
+  .section4 .row .botom p {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .section4 .row img {
+    height: 80px;
+  }
+
+  .section4 .title {
+    font-size: 15px !important;
+  }
+
+  .section4 .subtitle {
+    font-size: 12px !important;
+
+  }
+
+  .section5 .main button {
+    background-color: #da9d40 !important;
+    color: #ffffff;
+    border-radius: unset;
+  }
+
+  .section6 .para {
+    font-size: 18px !important;
+    font-weight: 500 !important;
+  }
+
+  .section6 .email {
+    font-size: 17px !important;
+  }
+
+  .section6 .subscribe {
+    background-color: #da9d40 !important;
+    color: #ffffff;
+    border-radius: unset;
+    padding: 2px 15px !important;
+  }
+
+  .section7 {
+    max-width: 100%;
+  }
+
+  .section7 .footer {
+    padding: 48px 0 !important;
+    margin: 0 !important;
+  }
+
+  .section7 .foothead {
+    text-align: center;
+  }
+
+  .section7 .footicons p {
+    display: flex;
+    justify-content: center;
+  }
+
+  .section7 .footlinks {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 16px !important;
+  }
+
+  .section7 .footlinks .home {
+    padding-left: 20px;
+  }
+}
+
+/*-------------------------------------------------------------- HOME END--------------------------------------------------------------  */
+
+
+/*--------------------------------------------------------------  About US START--------------------------------------------------------------  */
+
+/* section-1 */
+.section1 .overlay {
+  background: url(../public/img/bench.jpg) center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-width: 100%;
+}
+
+.section1 .innercontainer .banner {
+  background: rgba(0, 0, 0, 0.65);
+  padding: 3% 13% 10% 13%;
+}
+
+/* section4 */
+.section4 .overlay {
+  background: url(../public/img/7stones.jpg) center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.section4 .banner {
+  background: rgba(0, 0, 0, 0.55);
+}
+
+/* section7 */
+.section7 .overlay {
+  background: rgba(0, 0, 0);
+  min-width: 100%;
+  background-size: cover;
+}
+
+/* media query for smallest screen 300px */
+@media (max-width:575px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+  .section3 .main {
+    padding: 0px !important;
+
+  }
+
+  .section4 .main {
+    padding: 0px !important;
+  }
+
+  .section4 .sub {
+    padding: 0px !important;
+  }
+
+  .section4 .sub h1 {
+    font-size: 20px !important;
+    font-weight: bold !important;
+  }
+
+  .section4 .sub p {
+    font-size: 14px !important;
+  }
+
+  .section6 .para {
+    font-size: 18px !important;
+    font-weight: 500 !important;
+  }
+
+  .section6 .email {
+    font-size: 17px !important;
+  }
+
+  .section6 .subscribe {
+    background-color: #da9d40 !important;
+    color: #ffffff;
+    border-radius: unset;
+    padding: 2px 15px !important;
+  }
+
+  .section7 {
+    max-width: 100%;
+  }
+
+  .section7 .footer {
+    padding: 48px 0 !important;
+    margin: 0 !important;
+  }
+
+  .section7 .foothead {
+    text-align: center;
+  }
+
+  .section7 .footicons p {
+    display: flex;
+    justify-content: center;
+  }
+
+  .section7 .footlinks {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 16px !important;
+  }
+
+  .section7 .footlinks .home {
+    padding-left: 20px;
+  }
+}
+
+/*--------------------------------------------------------------  About US END--------------------------------------------------------------  */
+
+/*--------------------------------------------------------------  Services Start--------------------------------------------------------------  */
+
+
+/* section-1 */
+.section1 .overlay {
+  background: url(../public/img/bench.jpg) center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-width: 100%;
+}
+
+
+.section1 .innercontainer .banner {
+  background: rgba(0, 0, 0, 0.65);
+  padding: 3% 13% 10% 13%;
+}
+
+/* section4 */
+
+.section4 .left .overlay {
+  background: url(../public/img/dusk.jpg) center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 450px;
+  margin: 5px;
+}
+
+.section4 .left .overlay h4 {
+  background: rgba(0, 0, 0, 0.4);
+  min-height: 450px;
+  letter-spacing: 5px;
+  padding-top: 350px;
+}
+
+/* overlay2 */
+.section4 .right .overlay2 {
+  background: url(../public/img/longexpo.jpg) center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 250px;
+  margin: 5px;
+}
+
+.section4 .right .overlay2 h4 {
+  background: rgba(0, 0, 0, 0.4);
+  min-height: 250px;
+  letter-spacing: 5px;
+  padding-top: 170px;
+}
+
+/* overlay3 */
+.section4 .rightbottom .overlay3 {
+  background: url(../public/img/lighttrail.jpg) center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 190px;
+  margin: 5px;
+}
+
+.section4 .rightbottom .overlay3 h4 {
+  background: rgba(0, 0, 0, 0.4);
+  min-height: 190px;
+  letter-spacing: 5px;
+  padding-top: 120px;
+}
+
+/* overlay4 */
+.section4 .rightbottom .overlay4 {
+  background: url(../public/img/7stones.jpg) center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 190px;
+  margin: 5px;
+}
+
+.section4 .rightbottom .overlay4 h4 {
+  background: rgba(0, 0, 0, 0.4);
+  min-height: 190px;
+  letter-spacing: 5px;
+  padding-top: 120px;
+}
+
+
+/* section5 */
+.section5 .overlay {
+  background: url(../public/img/bench.jpg) center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-width: 100%;
+}
+
+.section5 .banner {
+  background: rgba(0, 0, 0, 0.25);
+}
+
+/* section7 */
+.section7 .overlay {
+  background: rgba(0, 0, 0);
+  min-width: 100%;
+  background-size: cover;
+}
+
+@media (min-width:768px) {
+
+  .section4 .main {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .section4 .left,
+  .section4 .right {
+    width: 49.5%;
+  }
+}
+
+
+/* media query for smallest screen 300px */
+@media (max-width:575px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+  .section5 .banner .left {
+    padding: 20px;
+  }
+
+  .section5 .banner .right {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 15px 0px;
+    margin: 0px !important;
+  }
+
+
+  .section6 .para {
+    font-size: 18px !important;
+    font-weight: 500 !important;
+  }
+
+  .section6 .email {
+    font-size: 17px !important;
+  }
+
+  .section6 .subscribe {
+    background-color: #da9d40 !important;
+    color: #ffffff;
+    border-radius: unset;
+    padding: 2px 15px !important;
+  }
+
+  .section7 {
+    max-width: 100%;
+  }
+
+  .section7 .footer {
+    padding: 48px 0 !important;
+    margin: 0 !important;
+  }
+
+  .section7 .foothead {
+    text-align: center;
+  }
+
+  .section7 .footicons p {
+    display: flex;
+    justify-content: center;
+  }
+
+  .section7 .footlinks {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 16px !important;
+  }
+
+  .section7 .footlinks .home {
+    padding-left: 20px;
+  }
+}
+
+/*--------------------------------------------------------------  Services END--------------------------------------------------------------  */
+
+/*--------------------------------------------------------------  Gallery Start--------------------------------------------------------------  */
+/* section-1 */
+.section1 .overlay {
+  background: url(../public/img/bench.jpg) center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-width: 100%;
+}
+
+
+.section1 .innercontainer .banner {
+  background: rgba(0, 0, 0, 0.65);
+  padding: 3% 13% 10% 13%;
+}
+
+
+/* section7 */
+.section7 .overlay {
+  background: rgba(0, 0, 0);
+  min-width: 100%;
+  background-size: cover;
+}
+
+
+/* media query for smallest screen 300px */
+@media (max-width:575px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .section6 .para {
+    font-size: 18px !important;
+    font-weight: 500 !important;
+  }
+
+  .section6 .email {
+    font-size: 17px !important;
+  }
+
+  .section6 .subscribe {
+    background-color: #da9d40 !important;
+    color: #ffffff;
+    border-radius: unset;
+    padding: 2px 15px !important;
+  }
+
+  .section7 {
+    max-width: 100%;
+  }
+
+  .section7 .footer {
+    padding: 48px 0 !important;
+    margin: 0 !important;
+  }
+
+  .section7 .foothead {
+    text-align: center;
+  }
+
+  .section7 .footicons p {
+    display: flex;
+    justify-content: center;
+  }
+
+  .section7 .footlinks {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 16px !important;
+  }
+
+  .section7 .footlinks .home {
+    padding-left: 20px;
+  }
+}
+
+/*--------------------------------------------------------------  Gallery END--------------------------------------------------------------  */
+
+/*--------------------------------------------------------------  Contact Start--------------------------------------------------------------  */
+/* section-1 */
+.section1 .overlay {
+  background: url(../public/img/bench.jpg) center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-width: 100%;
+}
+
+
+.section1 .innercontainer .banner {
+  background: rgba(0, 0, 0, 0.65);
+  padding: 3% 13% 10% 13%;
+}
+
+/* section-3*/
+.section3 input[type="text"],
+.section3 input[type="email"],
+.section3 textarea {
+  background-color: #f6f6f6;
+  color: #777;
+  border: 0px;
+  padding: 15px 35px;
+  margin: 10px;
+}
+
+/* section7 */
+.section7 .overlay {
+  background: rgba(0, 0, 0);
+  min-width: 100%;
+  background-size: cover;
+}
+
+
+/* media query for smallest screen 300px */
+@media (max-width:575px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .section6 .para {
+    font-size: 18px !important;
+    font-weight: 500 !important;
+  }
+
+  .section6 .email {
+    font-size: 17px !important;
+  }
+
+  .section6 .subscribe {
+    background-color: #da9d40 !important;
+    color: #ffffff;
+    border-radius: unset;
+    padding: 2px 15px !important;
+  }
+
+  .section7 {
+    max-width: 100%;
+  }
+
+  .section7 .footer {
+    padding: 48px 0 !important;
+    margin: 0 !important;
+  }
+
+  .section7 .foothead {
+    text-align: center;
+  }
+
+  .section7 .footicons p {
+    display: flex;
+    justify-content: center;
+  }
+
+  .section7 .footlinks {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 16px !important;
+  }
+
+  .section7 .footlinks .home {
+    padding-left: 20px;
+  }
+}
+
+/*--------------------------------------------------------------  Contact END--------------------------------------------------------------  */
