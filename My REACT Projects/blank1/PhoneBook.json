@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "firstname": "Akshit",
+      "lastname": "Lathiya",
+      "phone": "9846568678",
+      "id": 2
+    },
+    {
+      "firstname": "Piyush",
+      "lastname": "Dhola",
+      "phone": "7846553735",
+      "id": 3
+    },
+    {
+      "firstname": "Fenny",
+      "lastname": "Shah",
+      "phone": "7465659356",
+      "id": 4
+    }
+  ]
+}

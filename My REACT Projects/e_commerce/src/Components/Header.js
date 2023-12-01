@@ -38,14 +38,8 @@ const Header = () => {
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li className="nav-item submenu dropdown">
-                                            <a href="#" className="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
-                                                aria-haspopup="true" aria-expanded="false">Blog</a>
-                                            <ul className="dropdown-menu">
-                                                <li className="nav-item"><a className="nav-link" href="#">Option</a></li>
-                                                <li className="nav-item"><a className="nav-link" href="#">Option</a>
-                                                </li>
-                                            </ul>
+                                        <li className="nav-item">
+                                            <Link className="nav-link" to={"/Products"}>Products</Link>
                                         </li>
                                         <li className="nav-item submenu dropdown">
                                             <a href="#" className="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
@@ -53,31 +47,25 @@ const Header = () => {
                                             <ul className="dropdown-menu">
                                                 <li className="nav-item"><a className="nav-link" href="#">Option</a></li>
                                                 <li className="nav-item"><a className="nav-link" href="#">Option</a></li>
-                                                <li className="nav-item"><a className="nav-link" href="#">Option</a></li>
                                             </ul>
                                         </li>
-                                        <li className="nav-item"><Link className="nav-link" to={"/Contact"}>Contact</Link></li>
+                                        <li className="nav-item">
+                                            <Link className="nav-link" to={"/Contact"}>Contact</Link>
+                                        </li>
                                     </ul>
                                     <ul className="col-lg-2 p-0 nav navbar-nav navbar-right">
                                         <li className="nav-item">
-                                            <a href="#" className="cart"><i class="fa-solid fa-cart-shopping" style={{ color: "#000000" }}></i></a></li>
+                                            <Link to={"/Cart"} className="cart"><i class="fa-solid fa-cart-shopping" style={{ color: "#000000" }}></i></Link></li>
                                         <li className="nav-item">
-                                            <a href="#" className="search"><i class="fa-solid fa-magnifying-glass" style={{ color: "#000000" }}></i></a>
+                                            <a href="#" className="search">
+                                                <i class="fa-solid fa-arrow-right-to-bracket" style={{ color: "#000000" }}></i>
+                                            </a>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
                         </nav>
                     </div>
-                    {/* <div className="search_input" id="search_input_box">
-                        <div className="container">
-                            <form className="d-flex justify-content-between">
-                                <input type="text" className="form-control" id="search_input" placeholder="Search Here" />
-                                <button type="submit" className="btn">x</button>
-                                <span className="lnr lnr-cross" id="close_search" title="Close Search"></span>
-                            </form>
-                        </div>
-                    </div> */}
                 </header>
                 {/* <!-- End Header Area --> */}
             </div >

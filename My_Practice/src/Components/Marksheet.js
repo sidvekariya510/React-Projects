@@ -45,37 +45,40 @@ const Marksheet = () => {
 
     return (
         <>
-            <h3 className='text-center my-3'>Marksheet</h3>
-            <table className='container table table-bordered border border-5 text-center my-4'>
-                <tr className='border border-5'>
-                    <th className='border'>Name</th>
-                    <th className='border'>Marks</th>
-                    <th className='border'>Age</th>
-                </tr>
-                {/* using map method to print the data from array*/}
-                {sheet.map((data) => {
-                    return (
-                        <tr>
-                            <td className='border'>{data.name}</td>
-                            <td className='border'>{data.marks}</td>
-                            <td className='border'>{data.age}</td>
-                        </tr>)
-                })}
+            <div className="Marksheet">
+                <h3 className='text-center py-5'>Marksheet</h3>
+                <table className='container table table-bordered border border-5 text-center'>
+                    <tr className='border border-5'>
+                        <th className='border'>Name</th>
+                        <th className='border'>Marks</th>
+                        <th className='border'>Age</th>
+                    </tr>
+                    {/* using map method to print the data from array*/}
+                    {sheet.map((data) => {
+                        return (
+                            <tr>
+                                <td className='border'>{data.name}</td>
+                                <td className='border'>{data.marks}</td>
+                                <td className='border'>{data.age}</td>
+                            </tr>)
+                    })}
 
-            </table>
+                </table>
 
-            <div className="container text-center">
-                <button className='btn btn-success' onClick={() => {
-                    graceMarks(sheet)
-                }}>Update Grace Marks</button>
+                <div className="container text-center">
+                    <button className='btn btn-success' onClick={() => {
+                        graceMarks(sheet)
+                    }}>Update Grace Marks</button>
 
-                <button className='btn btn-secondary mx-2' onClick={() => {
-                    originalMarks(sheet)
-                }}>Original Marks</button>
+                    <button className='btn btn-secondary mx-2' onClick={() => {
+                        originalMarks(sheet)
+                    }}>Original Marks</button>
 
-                <button className='btn btn-secondary mx-2' onClick={() => {
-                    failed(sheet)
-                }}>Failed Students</button>
+                    <button className='btn btn-secondary mx-2' onClick={() => {
+                        failed(sheet)
+                    }}>Failed Students</button>
+
+                </div>
 
             </div>
         </>

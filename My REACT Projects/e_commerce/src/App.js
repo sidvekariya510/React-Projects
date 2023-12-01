@@ -5,7 +5,8 @@ import Home from './Components/Home';
 import Footer from './Components/Footer';
 import Contact from './Components/Contact';
 import ProductDetails from './Components/ProductDetails';
-
+import Products from './Components/Products';
+import Cart from './Components/Cart';
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
         <Route path='/Home' element={<Home />} ></Route>
         <Route path='/Contact' element={<Contact />} ></Route>
         <Route path='/ProductDetails' element={<ProductDetails />} ></Route>
+        <Route path='/Products' element={<Products />} ></Route>
+        <Route path='/Cart' element={<Cart />}></Route>
       </Routes>
       <Header />
       <Footer />

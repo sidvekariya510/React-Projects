@@ -4,27 +4,29 @@ import { Link } from 'react-router-dom'
 
 const Header = (props) => {
 
-    const btnAction = () => {
-        // document.getElementById('main').style.backgroundColor = "yellow";
-        document.body.style.backgroundColor = "lightblue"
-    }
     return (
         <>
-            <div className='conatainer-fluid text-center bg-black text-light d-flex justify-content-between'>
-                <div className='p-3 px-5'><a className='h2 text-decoration-none text-info'>{props.logo}</a></div>
-                <div className='px-3 d-flex'>
-                    <ul className="list-unstyled d-flex pt-4 m-0">
-                        <li className='px-3'><Link className='text-decoration-none text-light' to='/Home'>Home</Link></li>
-                        <li className='px-3'><Link className='text-decoration-none text-light' to="/Products_API">Products</Link></li>
-                        <li className='px-3'><Link className='text-decoration-none text-light' to="/TodoList">TodoList</Link></li>
-                        <li className='px-3'><Link className='text-decoration-none text-light' to="/About">About</Link></li>
-                        <li className='px-3'><Link className='text-decoration-none text-light' to="/Marksheet">Marksheet</Link></li>
-                    </ul>
+            <div className="Header">
+                <div className='text-md-center text-lg-start d-flex flex-column'>
+                    <div className='px-4 py-4'><a className='h3 text-decoration-none text-primary'>{props.logo}</a>
+                    </div>
+
+                    <hr className='text-light m-2' />
+
+                    <div className='px-3 d-flex py-4'>
+                        <ul className="nav nav-pills list-unstyled flex-column text-start m-0">
+                            <li className='nav-item p-2 fs-5 lh-2'><Link className='Link text-light text-decoration-none' to='/PhoneBook'>PhoneBook</Link></li>
+                            <li className='nav-item p-2 fs-5 lh-2'><Link className='Link text-light text-decoration-none' to="/Axios">Axios Project</Link></li>
+                            <li className='nav-item p-2 fs-5 lh-2'><Link className='Link text-light text-decoration-none' to="/TodoList">TodoList Project</Link></li>
+                            <li className='nav-item p-2 fs-5 lh-2'><Link className='Link text-light text-decoration-none' to="/Products_API">Fetch API Task</Link></li>
+                            <li className='nav-item p-2 fs-5 lh-2'><Link className='Link text-light text-decoration-none' to="/RCC">React Class</Link></li>
+                            <li className='nav-item p-2 fs-5 lh-2'><Link className='Link text-light text-decoration-none' to="/Marksheet">Marksheet Task</Link></li>
+                            <li className='p-2 fs-5'><Link className='btn btn-primary text-light w-100' to="/Login">{props.login}</Link></li>
+                        </ul>
+                    </div>
                 </div>
-                <button id='btn' className='btn btn-light text-black border-0 m-3' onClick={() => {
-                    btnAction()
-                }}>{props.login}</button>
             </div>
+
         </>
     )
 }

@@ -1,6 +1,6 @@
 import react from 'react'
 import { Routes, Route } from 'react-router-dom'
-import ToDoList from './Components/ToDoList';
+import PhoneBook from './Components/PhoneBook';
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       {/* <Routes>
         <Route to={"/"} element={<ToDoList />}></Route>
       </Routes> */}
-      <ToDoList />
+      <PhoneBook />
     </>
   );
 }

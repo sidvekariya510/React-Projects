@@ -72,7 +72,7 @@ const ToDo = () => {
             <div className="main d-flex flex-column align-items-center pt-5">
                 <figure>
                     <img src="./images/blueNotes.png" alt="" width={"100px"} />
-                    <figcaption>To-do app
+                    <figcaption>To - Do App
                     </figcaption>
                 </figure>
                 <div className="add_items">
@@ -90,9 +90,9 @@ const ToDo = () => {
                         toDo.map((data, i, value) => {
                             return (
                                 <>
-                                    <div className='todoList w-100'>
+                                    <div className='todoList '>
                                         <table className='table table-hover border border-1 m-1 text-warning'>
-                                            <tr className='p w-100' >
+                                            <tr className='p ' >
                                                 <td className='text-start  px-3 w-100'>{data}</td>
                                                 <td className='text-end'>
                                                     <button type="button" class="btn text-center"

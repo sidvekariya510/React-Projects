@@ -1,0 +1,148 @@
+{
+    "Destinations": [
+        {
+            "id": 1,
+            "title": "Arctic Ocean",
+            "price": 999,
+            "description": "The Arctic Ocean is the smallest and shallowest of the world's five major oceans. It spans an area of approximately 14,060,000 km² and is known as one of the coldest of oceans. The International Hydrographic Organization recognizes it as an ocean, although some oceanographers call it the Arctic Mediterranean Sea.",
+            "category": "Travel",
+            "image": "/images/1.jpg",
+            "rating": {
+                "rate": 3,
+                "count": 400
+            }
+        },
+        {
+            "id": 2,
+            "title": "Himalayas",
+            "price": 599,
+            "description": "The Arctic Ocean is the smallest and shallowest of the world's five major oceans. It spans an area of approximately 14,060,000 km² and is known as one of the coldest of oceans. The International Hydrographic Organization recognizes it as an ocean, although some oceanographers call it the Arctic Mediterranean Sea.",
+            "category": "Travel",
+            "image": "/images/2.jpg",
+            "rating": {
+                "rate": 3,
+                "count": 400
+            }
+        },
+        {
+            "id": 3,
+            "title": "Japan",
+            "price": 899,
+            "description": "The Arctic Ocean is the smallest and shallowest of the world's five major oceans. It spans an area of approximately 14,060,000 km² and is known as one of the coldest of oceans. The International Hydrographic Organization recognizes it as an ocean, although some oceanographers call it the Arctic Mediterranean Sea.",
+            "category": "Travel",
+            "image": "/images/3.jpg",
+            "rating": {
+                "rate": 3,
+                "count": 400
+            }
+        },
+        {
+            "id": 4,
+            "title": "Alaska",
+            "price": 1999,
+            "description": "The Arctic Ocean is the smallest and shallowest of the world's five major oceans. It spans an area of approximately 14,060,000 km² and is known as one of the coldest of oceans. The International Hydrographic Organization recognizes it as an ocean, although some oceanographers call it the Arctic Mediterranean Sea.",
+            "category": "Travel",
+            "image": "/images/4.jpg",
+            "rating": {
+                "rate": 3,
+                "count": 400
+            }
+        },
+        {
+            "id": 5,
+            "title": "United States",
+            "price": 2999,
+            "description": "The Arctic Ocean is the smallest and shallowest of the world's five major oceans. It spans an area of approximately 14,060,000 km² and is known as one of the coldest of oceans. The International Hydrographic Organization recognizes it as an ocean, although some oceanographers call it the Arctic Mediterranean Sea.",
+            "category": "Travel",
+            "image": "/images/5.jpg",
+            "rating": {
+                "rate": 3,
+                "count": 400
+            }
+        },
+        {
+            "id": 6,
+            "title": "Nepal",
+            "price": 164,
+            "description": "The trail from Lungdhen (4380m) to Thame (3800m) through the river valley west of Namche Bazaar is a pleasant walk away from the masses.",
+            "category": "Travel",
+            "image": "/images/6.jpg",
+            "rating": {
+                "rate": 3.3,
+                "count": 203
+            }
+        },
+        {
+            "id": 7,
+            "title": "Alberta",
+            "price": 864,
+            "description": "The trail from Lungdhen (4380m) to Thame (3800m) through the river valley west of Namche Bazaar is a pleasant walk away from the masses.",
+            "category": "Travel",
+            "image": "/images/7.jpg",
+            "rating": {
+                "rate": 3.3,
+                "count": 203
+            }
+        },
+        {
+            "id": 8,
+            "title": "Antarctica",
+            "price": 2199,
+            "description": "The trail from Lungdhen (4380m) to Thame (3800m) through the river valley west of Namche Bazaar is a pleasant walk away from the masses.",
+            "category": "Travel",
+            "image": "/images/8.jpg",
+            "rating": {
+                "rate": 3.3,
+                "count": 203
+            }
+        },
+        {
+            "id": 9,
+            "title": "United Kingdom",
+            "price": 1699,
+            "description": "The trail from Lungdhen (4380m) to Thame (3800m) through the river valley west of Namche Bazaar is a pleasant walk away from the masses.",
+            "category": "Travel",
+            "image": "/images/9.jpg",
+            "rating": {
+                "rate": 3.3,
+                "count": 203
+            }
+        },
+        {
+            "id": 10,
+            "title": "India",
+            "price": 1164,
+            "description": "The trail from Lungdhen (4380m) to Thame (3800m) through the river valley west of Namche Bazaar is a pleasant walk away from the masses.",
+            "category": "Travel",
+            "image": "/images/10.jpg",
+            "rating": {
+                "rate": 3.3,
+                "count": 203
+            }
+        },
+        {
+            "id": 11,
+            "title": "Bhutan",
+            "price": 764,
+            "description": "The trail from Lungdhen (4380m) to Thame (3800m) through the river valley west of Namche Bazaar is a pleasant walk away from the masses.",
+            "category": "Travel",
+            "image": "/images/11.jpg",
+            "rating": {
+                "rate": 3.3,
+                "count": 203
+            }
+        },
+        {
+            "id": 12,
+            "title": "South America",
+            "price": 2100,
+            "description": "The trail from Lungdhen (4380m) to Thame (3800m) through the river valley west of Namche Bazaar is a pleasant walk away from the masses.",
+            "category": "Travel",
+            "image": "/images/12.jpg",
+            "rating": {
+                "rate": 3.3,
+                "count": 203
+            }
+        }
+    ]
+}
