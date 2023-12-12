@@ -1,0 +1,46 @@
+
+.PhoneBook{
+    height: 100vh;
+}
+
+.phonebooktable .table{
+    margin: auto;
+}
+
+.PhoneBook .btn {
+    background: #cac6c0;
+    color: black;
+    font-weight: 600;
+    border: 1px solid transparent;
+}
+
+.PhoneBook .btn:hover {
+    background-color: #ffca2c;
+    color: black;
+    border: 1px solid black;
+
+}
+
+.PhoneBook .table .btn {
+    background-color: transparent;
+    color: whitesmoke;
+    border: none;
+}
+.PhoneBook .table .btn:hover{
+    background-color: #ffca2c;
+    color: black;
+    border: none ;
+
+}
+
+.PhoneBook input {
+    background: whitesmoke;
+    border: 3px solid #a16100;
+    border-radius: 4px;
+    padding: 8px;
+    margin: 5px;
+}
+
+.PhoneBook .table {
+    border: none;
+}

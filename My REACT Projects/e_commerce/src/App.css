@@ -1,5 +1,6 @@
 /*--------------------------- Fonts ----------------------*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:500,700|Roboto:400,500");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@200;600&family=Poppins:wght@100;200;500&display=swap');
 
 
 body {
@@ -1047,9 +1048,9 @@ i {
 
 
 /* ================== Exclusive Deal CSS starts  ================= */
-.exclusive-deal-area {
+/* .exclusive-deal-area {
   background: #f9f9ff;
-}
+} */
 
 .exclusive-deal-area .exclusive-left {
   position: relative;
@@ -2043,15 +2044,46 @@ i {
 
 /* ==============  Footer  =============== */
 .footer-area {
-  padding-top: 100px;
-  background-color: #222222;
+  /* padding-top: 100px; */
+  /* background-color: #222222; */
+  background: url(../public/img/banner/banner-img.png) no-repeat;
+  /* background-position: fixed; */
+  color: #cfcfcf;
+  background-position: 50% 35%;
+  padding-bottom: 0;
 }
 
+.footer-area .container {
+  backdrop-filter: blur(3px);
+  padding: 50px 0 50px 0;
+}
+
+.footer-area .container .row {
+  padding: 100px 0 0 0;
+}
+.footer-area .container .row p{
+  color: #222222;
+  transition: all 0.3s;
+}
+.footer-area .container .row p:hover{
+  color: #d4d4d4;
+}
 .footer-area h6 {
-  color: #fff;
+  /* background: #ffba00; */
   margin-bottom: 25px;
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 500;
+  transition: all 0.4s;
+  padding: 5px;
+  text-shadow: 2px 2px 3px #000;
+  color: #ffba00;
+
+}
+
+.footer-area h6:hover {
+  text-shadow: 2px 2px 3px #000;
+  transform: translateY(-5px);
+  /* color: #fff; */
 }
 
 @media (max-width: 767px) {
@@ -2076,6 +2108,12 @@ i {
 
 .instafeed li img {
   margin: 5px;
+  transition: all 0.4s;
+}
+
+.instafeed li:hover img {
+  margin: 5px;
+  transform: scale(1.5);
 }
 
 .footer-social a {
@@ -2085,10 +2123,11 @@ i {
 
 .footer-social a:hover i {
   color: #ffba00;
+  transform: scale(1.5);
 }
 
 .footer-social i {
-  color: #cccccc;
+  color: #222222;
   transition: all 0.3s ease 0s;
 }
 
@@ -2107,15 +2146,16 @@ i {
   border: none;
   width: 80% !important;
   font-weight: 300;
-  background: #fff;
-  color: #777;
+  background: transparent;
+  color: #ffba00;
   padding-left: 20px;
   border-radius: 0;
   font-size: 14px;
+  border: 1px solid #fff;
 }
 
 .single-footer-widget input.placeholder {
-  color: #ccc;
+  color: #ffffff !important;
 }
 
 .single-footer-widget .click-btn {
@@ -2133,11 +2173,16 @@ i {
 }
 
 .footer-text a {
-  color: #ffffff;
+  color: #ffba00;
+  font-family: monospace;
 }
 
 .footer-text a:hover {
-  color: #ffba00;
+  text-shadow: 0px 1px 3px #000;
+}
+
+.footer-text p {
+  font-family: 'Dancing Script', cursive;
 }
 
 @media (max-width: 991px) {
