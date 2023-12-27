@@ -21,7 +21,7 @@ const Header = (props) => {
                             <li className='nav-item p-2 fs-5 lh-2'><Link className='Link text-light text-decoration-none' to="/Products_API">Fetch API Task</Link></li>
                             <li className='nav-item p-2 fs-5 lh-2'><Link className='Link text-light text-decoration-none' to="/RCC">Class Component</Link></li>
                             <li className='nav-item p-2 fs-5 lh-2'><Link className='Link text-light text-decoration-none' to="/Marksheet">Marksheet Task</Link></li>
-                            <li className='nav-item p-2 fs-5 lh-2'><Link className='Link text-light text-decoration-none' to="/Redux">Redux</Link></li>
+                            <li className='nav-item p-2 fs-5 lh-2'><Link className='Link text-light text-decoration-none' to="/PasswordGenerator">Password Generator App</Link></li>
                             <li className='nav-item p-2 fs-5 lh-2'><Link className='Link text-light text-decoration-none' to="/Weather">Weather App</Link></li>
                             <li className='p-2 fs-5'><Link className='btn btn-primary text-light w-100' to="/Login">{props.login}</Link></li>
                         </ul>

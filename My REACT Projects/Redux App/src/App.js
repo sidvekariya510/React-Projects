@@ -1,12 +1,17 @@
-import logo from './logo.svg';
+//redux used for passing data from one component to another component or anywhere in the react app.
+
 import './App.css';
+// import User from './User';
+import HomeContainer from './Containers/HomeContainer'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
+      {/* <h1>App Component</h1> */}
+      <HomeContainer />
+
+
+      {/* <User data={{ name: "Siddharth", age: 28 }} /> */}
     </div>
   );
 }

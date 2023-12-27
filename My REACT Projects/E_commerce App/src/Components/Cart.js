@@ -8,6 +8,7 @@ const Cart = () => {
     const [myNum2, setMyNum2] = useState(1);
     const [myNum3, setMyNum3] = useState(1);
 
+
     if (document.getElementById("price") != null) {
         var Price = document.getElementById("price").innerHTML;
 
@@ -123,7 +124,7 @@ const Cart = () => {
                                                     onClick={() => { setMyNum2(myNum2 + 1) }}
                                                     className="increase items-count" type="button"><i class="fa-solid fa-chevron-up fa-xs"></i></button>
                                                 <button onClick={() => {
-                                                    myNum2 > 1 ? setMyNum2(myNum2 - 1) : setMyNum(1)
+                                                    myNum2 > 1 ? setMyNum2(myNum2 - 1) : setMyNum2(1)
                                                 }}
                                                     className="reduced items-count" type="button"><i class="fa-solid fa-chevron-down fa-xs"></i></button>
                                             </div>
@@ -158,7 +159,7 @@ const Cart = () => {
                                                     onClick={() => { setMyNum3(myNum3 + 1) }}
                                                     className="increase items-count" type="button"><i class="fa-solid fa-chevron-up fa-xs"></i></button>
                                                 <button onClick={() => {
-                                                    myNum > 1 ? setMyNum3(myNum3 - 1) : setMyNum3(1)
+                                                    myNum3 > 1 ? setMyNum3(myNum3 - 1) : setMyNum3(1)
                                                 }}
                                                     className="reduced items-count" type="button"><i class="fa-solid fa-chevron-down fa-xs"></i></button>
                                             </div>

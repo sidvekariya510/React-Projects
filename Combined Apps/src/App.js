@@ -10,7 +10,7 @@ import TodoList from './Components/TodoList'
 import Axios from './Components/Axios';
 import ViewProduct from './Components/ViewProduct';
 import Login from './Components/Login';
-import Redux from './ReduxProject/Redux';
+import PasswordGenerator from './Components/PasswordGenerator'
 import Weather from './WeatherApp/Weather';
 
 
@@ -53,7 +53,7 @@ function App() {
             <Route path='/Marksheet' element={<Marksheet />} />
             <Route path='/Axios' element={<Axios />} />
             <Route path='/ViewProduct/:productId' element={<ViewProduct />} />
-            <Route path='/Redux' element={<Redux />} />
+            <Route path='/PasswordGenerator' element={<PasswordGenerator />} />
             <Route path='/Weather' element={<Weather />} />
 
             <Route path='/Login' element={<Login />} />
