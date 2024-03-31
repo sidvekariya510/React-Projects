@@ -9,7 +9,7 @@ const ToDo = () => {
     const [toDo, setToDo] = useState([])
     const [index, setIndex] = useState(null)
 
-    const addTask = async (data) => {
+    const addTask = async () => {
         if (index == null) {
             if (input.current.value === "") {
                 alert("Please fill the data.")
@@ -39,10 +39,13 @@ const ToDo = () => {
         const filtered = newToDo.filter((data, index, value) => {
             return index !== i
         })
+        console.log(filtered);
         setToDo(filtered)
+
     }
 
-    const getEditItem = (data, i) => {
+    const getEditItem = (data, i, value) => {
+        // console.log(data,i,value);
         input.current.value = data
         setIndex(i)
         document.getElementById("main-btn").innerHTML = "Update Item"
@@ -79,7 +82,7 @@ const ToDo = () => {
 
                     <input ref={input} className='form-control' type="text" placeholder='✍️ Add Your Tasks' />
                     <button id="main-btn" className='btn btn-warning ms-3' onClick={() => {
-                        addTask(toDo)
+                        addTask()
                     }}>Add Item</button>
 
 
@@ -97,7 +100,7 @@ const ToDo = () => {
                                                 <td className='text-end'>
                                                     <button type="button" class="btn text-center"
                                                         onClick={() => {
-                                                            getEditItem(data, i)
+                                                            getEditItem(data, i, value)
                                                         }}>
                                                         <i className="fa-regular fa-pen-to-square" ></i>
                                                     </button>
